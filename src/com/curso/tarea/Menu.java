@@ -78,7 +78,7 @@ public class Menu {
 			while((i = bis.read()) != -1 ){
 				System.out.println((char)i);
 			}
-			bis.close();
+			bis.close(); 
 			fis.close();
 		}catch (IOException ioe) {
 			// TODO: handle exception
